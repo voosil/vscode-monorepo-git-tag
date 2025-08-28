@@ -105,7 +105,7 @@ export async function selectCommitId(_defaultCommitId: string, workspaceRoot: st
 
     // 定义QuickPickItem接口，与vscode.QuickPickItem兼容
     interface CommitQuickPickItem extends vscode.QuickPickItem {
-        detail?: string;
+        detail: string;
     }
 
     // 构建选项列表
@@ -124,7 +124,7 @@ export async function selectCommitId(_defaultCommitId: string, workspaceRoot: st
         return {
             label: commit.shortId,
             description,
-            // detail: commit.id,
+            detail: commit.id,
         };
     });
 
