@@ -1,0 +1,9 @@
+{
+    "name": "trae-plugin-demo",
+    "version": "0.0.1",
+    "publisher": "voosil",
+    "registryUrl": "https://open-vsx.org",
+    "extensionFile": "trae-plugin-demo-0.0.1.vsix",
+    "yarn": false,
+    "pat": "${OVSX_PAT}"
+}
