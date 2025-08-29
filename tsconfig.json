@@ -1,20 +1,20 @@
 {
-    "compilerOptions": {
-        "module": "NodeNext",
-        "target": "ES2022",
-        "outDir": "dist",
-        "rootDir": "src",
-        "sourceMap": true,
-        "strict": true,
-        "lib": ["ES2022"],
-        "types": ["node", "vscode"],
-        "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true,
-        "noImplicitReturns": true,
-        "noFallthroughCasesInSwitch": true,
-        "noUnusedParameters": true,
-        "noUnusedLocals": true
-    },
-    "include": ["src"],
-    "exclude": ["node_modules", ".vscode-test"]
+  "compilerOptions": {
+    "module": "NodeNext",
+    "target": "ES2022",
+    "outDir": "dist",
+    "rootDir": "src",
+    "sourceMap": true,
+    "strict": true,
+    "lib": ["ES2022"],
+    "types": ["node", "vscode"],
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", ".vscode-test"]
 }
