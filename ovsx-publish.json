@@ -1,9 +1,9 @@
 {
-  "name": "trae-plugin-demo",
+  "name": "monorepo-git-tag",
   "version": "0.0.2",
   "publisher": "voosil",
   "registryUrl": "https://open-vsx.org",
-  "extensionFile": "trae-plugin-demo-0.0.2.vsix",
+  "extensionFile": "monorepo-git-tag-0.0.2.vsix",
   "yarn": false,
   "pat": "${OVSX_PAT}"
 }
